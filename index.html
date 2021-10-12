@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/530be9d0f5.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Portfolio</title>
 </head>
@@ -23,16 +24,16 @@
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav mx-auto">
                         <li class="nav-item">
-                            <a class="nav-link text-light" aria-current="page" href="#">Home</a>
+                            <a class="nav-link text-light" aria-current="page" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="#">About</a>
+                            <a class="nav-link text-light" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="#">Projects</a>
+                            <a class="nav-link text-light" href="#projects">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="#">Contact</a>
+                            <a class="nav-link text-light" href="#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -42,7 +43,7 @@
 
         <!--Hero Start-->
         <div class="image-container">
-            <img src="assets/images/IMG_7207.JPG" class="w-100 img-fluid">
+            <img src="assets/images/IMG_7207.JPG" class="w-100 img-fluid" alt="me">
         </div>
         <div class="heading-text text-center">
             <h5>Hi, I'm</h5>
@@ -60,7 +61,7 @@
         </div>
         <div class="row">
             <div class="col-lg-6 col-md-6 col-12">
-                <img src="assets/images/IMG_7207.JPG" class="img-fluid">
+                <img src="assets/images/IMG_7207.JPG" class="img-fluid" alt="meow">
             </div>
             <div class="col-lg-6 col-md-6 col-12">
                 <h2>HIHIHIHIHIIIIIIIIIII</h2>
@@ -80,32 +81,35 @@
             <h3 class="display-4 font-weight-bold">Projects</h3>
             <hr class="w-75 mx-auto mb-5">
         </div>
+
         <div class="row">
             <div class="col-lg-4 col-md-6 col-12 pb-5">
                 <div class="card">
-                    <img src="assets/images/weather.png" class="card-img-top" alt="...">
+                    <img src="assets/images/weather.png" class="card-img-top" alt="Weather Forecast">
                     <div class="card-body">
                         <h5 class="card-title">Weather Dashboard</h5>
                         <p class="card-text">View the weather forecast for cities around the world.</p>
-                        <a href="https://mushymane.github.io/weather-dashboard/" class="btn btn-dark" target="_blank">Live</a>
+                        <a href="https://mushymane.github.io/weather-dashboard/" class="btn btn-dark"
+                            target="_blank">Live</a>
                     </div>
                 </div>
             </div>
 
             <div class="col-lg-4 col-md-6 col-12 pb-5">
                 <div class="card">
-                    <img src="assets/images/schedule.png" class="card-img-top" alt="...">
+                    <img src="assets/images/schedule.png" class="card-img-top" alt="Scheduler">
                     <div class="card-body">
                         <h5 class="card-title">Work Day Scheduler</h5>
                         <p class="card-text">Keep track of your work day events with this web app.</p>
-                        <a href="https://mushymane.github.io/work-day-scheduler/" class="btn btn-dark" target="_blank">Live</a>
+                        <a href="https://mushymane.github.io/work-day-scheduler/" class="btn btn-dark"
+                            target="_blank">Live</a>
                     </div>
                 </div>
             </div>
 
             <div class="col-lg-4 col-md-6 col-12 pb-5">
                 <div class="card">
-                    <img src="assets/images/ez.png" class="card-img-top" alt="...">
+                    <img src="assets/images/ez.png" class="card-img-top" alt="EzVibez - lyrics analyzer">
                     <div class="card-body">
                         <h5 class="card-title">EzVibez</h5>
                         <p class="card-text">Have your lyrics analyzed and get recommendations for similar songs.</p>
@@ -122,7 +126,36 @@
     <!--Projects end-->
 
     <!--Contact start-->
-    <div class="" id="contact">
+    <div class="container mt-3 mb-5 mx-auto" id="contact">
+        <div class="post-heading text-center">
+            <h3 class="display-4 font-weight-bold">Contact</h3>
+            <hr class="w-75 mx-auto mb-5">
+        </div>
+
+        <!-- <div class="row d-flex">
+            <div class="col-lg-12 col-md-6 col justify-content-center mx-auto">
+                <a href="https://github.com/mushymane" target="_blank" class="mx-2"><i class="fab fa-github-square"></i>
+                    Github</a>
+                <a href="https://www.linkedin.com/in/luigilantin/" target="_blank" class="mx-2"><i
+                        class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="https://www.instagram.com/yeahdazright/" target="_blank" class="mx-2"><i
+                        class="fab fa-instagram"></i> Instagram</a>
+                <a href="Resume.pdf" target="_blank"><i class="fas fa-file" class="mx-2"></i> Resume</a>
+                <p class="mx-2"><i class="fas fa-envelope me-3"></i>lantinluigi@gmail.com</p>
+            </div>
+        </div> -->
+
+        <!-- Grid column -->
+        <div class="row mt-3 justify-content-center text-center">
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <p><i class="fas fa-file me-3"></i><a href="Resume.pdf" target="_blank"> Resume</a></p>
+                <p><i class="fab fa-linkedin me-3"></i><a href="https://www.linkedin.com/in/luigilantin/" target="_blank"> LinkedIn</a></p>
+                <p><i class="fab fa-github-square me-3"></i><a href="https://github.com/mushymane" target="_blank"> Github</a></p>
+                <p><i class="fab fa-instagram me-3"></i><a href="https://www.instagram.com/yeahdazright/" target="_blank"> Instagram</a></p>
+                <p><i class="fas fa-envelope me-3"></i> lantinluigi@gmail.com</p>
+            </div>
+        </div>
+        <!-- Grid column -->
 
     </div>
     <!--Contact end-->

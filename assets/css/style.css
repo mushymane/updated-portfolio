@@ -85,3 +85,9 @@ button a:hover {
 }
 
 /* Projects section end*/
+
+/* Contact section */
+#contact a {
+    text-decoration: none;
+}
+/* Contact section end*/

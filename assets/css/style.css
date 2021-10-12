@@ -69,3 +69,19 @@ body {
     word-spacing: 5px;
     letter-spacing: 3px;
 }
+
+/* Projects section */
+button a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    word-spacing: 3px;
+    letter-spacing: 3px;
+}
+
+button a:hover {
+    color: rgb(51, 112, 161);
+    text-decoration: none;
+}
+
+/* Projects section end*/
